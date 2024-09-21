@@ -10,3 +10,4 @@ class Grupo:
     maestros: List [maestro] = []
     materias: List [materia] = []
     tipo: chr
+    

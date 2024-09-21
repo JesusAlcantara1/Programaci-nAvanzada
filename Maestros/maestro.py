@@ -1,12 +1,16 @@
 class maestro:
-    NumeroControl: str
-    Nombre: str
-    Apellido: str
+
+    numero_control: str
+    nombre: str
+    apellido: str
     rfc: str
     sueldo: float 
+    ano_nacimiento: int
 
-    def __init__(self, Nombre:str, Apellido: str, NumeroControl: str, rfc: str, sueldo: float):
-        self.Nombre = Nombre
-        self.Apellido = Apellido
+    def __init__(self, nombre:str, apellido: str, numero_control: str, rfc: str, sueldo: float, ano_nacimiento: int):
+        self.nombre = nombre
+        self.apellidopellido = apellido
         self.rfc = rfc
         self.sueldo =  sueldo 
+        self.numero_control = numero_control
+        self.ano_nacimiento = ano_nacimiento
